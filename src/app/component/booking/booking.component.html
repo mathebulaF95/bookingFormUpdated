@@ -1,0 +1,38 @@
+
+
+<div id="left-menu">
+
+    <app-nav-bar *ngFor="let page of pages" [page]="page.page" [name]="page.name" [Fname]="Fname" [email]="email" [CheckInDate]="CheckInDate" [CheckInTime]="CheckInTime" [CheckOutDate]="CheckOutDate" [CheckOutTime]="CheckOutTime" [adults]="adults" [children]="children" [room]="room"></app-nav-bar>
+    
+</div> 
+
+<div class="fressy">
+    <a routerLink="/homepage">Homepage</a> 
+    <a routerLink="/about">About</a>
+    <a routerLink="/booking-form">Booking-form</a>
+    <a routerLink="/contact">Contact</a>
+     <a routerLink="/cost">Cost</a> 
+  
+
+</div>
+
+<img src="http://a63fad5a0a806f42a003-a0240c8823744c8916b34cecd4cf04f2.r26.cf1.rackcdn.com/lps/assets/u/Sheraton-Bratislava-Hotel_Executive-Bedroom-1600x900.jpg">
+
+<h1>Thank you {{Fname}} for booking to our Hotel!!!</h1>
+<h1>You can book for you family and friends also!!!</h1>
+
+
+<h1>Your information</h1>
+
+<h4>Your first name: {{Fname}}</h4>
+<h4>Your email: {{email}}</h4>
+<h4>Your CheckInDate: {{CheckInDate}}</h4>
+<h4>Your CheckInTime: {{CheckInTime}}</h4>
+<h4>Your CheckOutDate: {{CheckOutDate}}</h4>
+<h4>Your CheckOutTime: {{CheckOutTime}}</h4>
+<h4>Number of adult(s) coming: {{adults}}</h4>
+<h4>Number of children coming: {{children}}</h4>
+<h4>number of room(s) you've booked: {{room}}</h4>
+
+
+    <router-outlet></router-outlet>

@@ -1,0 +1,46 @@
+img{
+    position: absolute;
+    z-index: -88;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+form{
+    color:black;
+}
+
+.fressy{
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.fressy a{
+    display: inline-block;
+    text-align: left;
+    padding: 14px;
+    font-size: 30px;
+    color:black;
+}
+
+h1{
+    color:black;
+}
+
+form{
+    color:black;
+    margin: auto;
+    width: 500px;
+    text-align:center;
+    border:3px solid;
+    background-color:lightsteelblue;
+    padding: 15px;
+    
+    
+}
+
+form input{
+    width: 80%;
+}

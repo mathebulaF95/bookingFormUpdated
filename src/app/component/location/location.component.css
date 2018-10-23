@@ -1,0 +1,26 @@
+.fressy{
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.fressy a{
+    display: inline-block;
+    text-align: left;
+    padding: 14px;
+    font-size: 30px;
+    color:white;
+}
+
+body{
+    background-color:gray;
+    height: 1000px;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color:white;
+}
